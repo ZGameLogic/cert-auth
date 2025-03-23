@@ -1,23 +1,23 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: test
+  name: auth
   labels:
-    app: test
+    app: auth
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: test
+      app: auth
   template:
     metadata:
-      name: test
+      name: auth
       labels:
-        app: test
+        app: auth
     spec:
       containers:
-        - name: test
-          image: ghcr.io/zgamelogic/test:master
+        - name: auth
+          image: ghcr.io/zgamelogic/auth:master
           imagePullPolicy: Always
           env:
             - name: TZ

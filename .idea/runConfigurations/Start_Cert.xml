@@ -2,10 +2,10 @@
   <configuration default="false" name="Start Cert" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
     <option name="ACTIVE_PROFILES" value="cert" />
     <module name="spring-template" />
-    <option name="SPRING_BOOT_MAIN_CLASS" value="com.zgamelogic.application.App" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.zgamelogic.App" />
     <extension name="coverage">
       <pattern>
-        <option name="PATTERN" value="com.zgamelogic.application.*" />
+        <option name="PATTERN" value="com.zgamelogic.*" />
         <option name="ENABLED" value="true" />
       </pattern>
     </extension>
