@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: auth
-          image: ghcr.io/zgamelogic/auth:master
+          image: ghcr.io/zgamelogic/cert-auth:master
           imagePullPolicy: Always
           env:
             - name: TZ
